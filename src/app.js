@@ -6,7 +6,7 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
     res.json({ 
-        message: 'Carnet 1164XXX',
+        message: 'mensaje roto',
         version: '1.0.0'
     });
 });
