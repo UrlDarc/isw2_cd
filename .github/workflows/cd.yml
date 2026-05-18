@@ -49,7 +49,7 @@ jobs:
 
       - name: Verificar que la app responde en PRD
         run: |
-          curl --fail https://isw2-cd.onrender.com/health || exit 1
+          curl --fail https://isw2-cd-2whw.onrender.com/health || exit 1
 
       - name: Notificar exito
         if: success()
